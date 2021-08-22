@@ -1,0 +1,27 @@
+name: metronome
+description: A new Flutter project.
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  audioplayers: ^0.19.1
+  quiver: ^3.0.1
+  sleek_circular_slider: ^2.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/high_sound4.mp3
+    - assets/low_sound.mp3
